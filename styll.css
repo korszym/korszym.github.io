@@ -34,9 +34,19 @@ header
 justify-content: space-between;
 align-items: center;
 color:#fff;
-padding: 35px 100px 0px;
+padding: 35px 100px 0px ;
 
 
+}
+.banner-area .zdj
+{
+width: 35%;
+}
+@media (max-width:810px) {
+  .banner-area .zdj
+  {
+  width: 300px;
+  }
 }
 header h2
 {
@@ -76,7 +86,7 @@ header
   padding:20px 50px;
 }
 }
-@media (max-width:700px)
+@media (max-width:810px)
 {
 header
 {
@@ -111,11 +121,11 @@ section
   }
 }
 
-@media (max-width:600px)
+@media (max-width:810px)
 {
   section
   {
-    padding: 125px 30px;
+    padding: 125px 30px 0px 0px;
   }
 }
 section p
@@ -197,7 +207,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(250,198,136,1) 0%, rg
 
 
 }
-@media (max-width:800px) {
+@media (max-width:810px) {
 .banner-area
 {
   min-height: 600px;
