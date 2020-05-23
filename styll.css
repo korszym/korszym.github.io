@@ -281,12 +281,33 @@ ul.about-content
 .left
 {
   flex-basis: 40%;
-  background-image: url(img/1.jpg);
+  text-align: center;
   height: : 100%;
   height: auto;
 
 
 }
+.slider
+  {
+    background:url(11.jpg);
+    animation: slide 20s infinite;
+
+  }
+  @keyframes slide
+  {
+    25%{
+      background:url(11.jpg);
+    }
+    50%{
+      background:url(12.jpg);
+    }
+    75%{
+      background:url(11.jpg);
+    }
+    100%{
+      background:url(12.jpg);
+    }
+  }
 .right
 {
   flex-basis: 60%;
