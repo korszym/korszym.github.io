@@ -6,7 +6,7 @@ box-sizing: border-box;
 }
 body
 {
-  font-family: Helvetica;
+  font-family: poppins;
 }
 ul,nav
 {
@@ -34,19 +34,8 @@ header
 justify-content: space-between;
 align-items: center;
 color:#fff;
-padding: 35px 100px 0px ;
+padding: 35px 100px 0;
 
-
-}
-.banner-area .zdj
-{
-width: 35%;
-}
-@media only screen and (max-width:810px) {
-  .banner-area .zdj
-  {
-  width: 300px;
-  }
 }
 header h2
 {
@@ -63,12 +52,7 @@ header nav
 }
 header nav li
 {
-  margin: 0px 15px;
-}
-header nav li:hover
-{
-  font-size: 20px;
-  transition: 2s;
+  margin: 0 15px;
 }
 header nav:first-child
 {
@@ -79,14 +63,14 @@ header nav:last-child
 {
   margin-right: 0;
 }
-@media only screen and(max-width:1000px)
+@media(max-width:1000px)
 {
 header
 {
   padding:20px 50px;
 }
 }
-@media only screen and (max-width:810px)
+@media (max-width:700px)
 {
 header
 {
@@ -113,7 +97,7 @@ section
   align-items: center;
   padding: 110px 100px;
 }
-@media only screen and (max-width:1000px)
+@media (max-width:1000px)
 {
   section
   {
@@ -121,11 +105,11 @@ section
   }
 }
 
-@media only screen and (max-width:810px)
+@media (max-width:600px)
 {
   section
   {
-    padding: 125px 30px 0px 0px;
+    padding: 125px 30px;
   }
 }
 section p
@@ -147,7 +131,7 @@ line-height: 2;
 }
 .banner-area .banner-img
 {
-  background-image: url(img/topp.PNG);
+  background-image: url(img/topp.jpg);
   position: absolute;
   top: 0;
   left: 0;
@@ -172,7 +156,7 @@ opacity: .8;
 .banner-area h1
 {
   margin-bottom: 15px;
-  font-size: 55px;
+  font-size: 65px;
   font-family: merienda;
 
 }
@@ -184,30 +168,11 @@ font-size: 25px;
 .banner-area a.banner-btn
 {
   padding:15px 35px;
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(250,198,136,1) 0%, rgba(230,147,0,1) 100%);
+  background: crimson;
   border-radius: 50px;
   text-transform: uppercase;
-  color: black;
-  transition: 2s;
-
 }
-.banner-area a.banner-btn:hover
-{
-  transition: 5s;
-  padding:15px 35px;
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(250,198,136,1) 0%, rgba(230,147,0,1) 100%);
-  border-radius: 50px;
-  text-transform: uppercase;
-  color: black;
-   transition: 2s ;
-
-
-
-
-}
-@media only screen and (max-width:810px) {
+@media (max-width:800px) {
 .banner-area
 {
   min-height: 600px;
@@ -251,8 +216,6 @@ ul.about-content
 {
   flex-basis: 40%;
   background-image: url(img/1.jpg);
-  height: : 100%;
-  height: auto;
 
 
 }
@@ -288,7 +251,7 @@ ul.about-content
   text-transform: uppercase;
   color: #fff;
 }
-@media only screen and (max-width:1000px)
+@media (max-width:1000px)
 {
   .left,
   .right
@@ -338,7 +301,7 @@ ul.services-content
 {
   margin: 0;
 }
-@media only screen and(max-width:1000px) {
+@media (max-width:1000px) {
   .services-content li
   {
     flex-basis: 100%;
@@ -387,7 +350,7 @@ ul.contact-content
   margin:0;
 
 }
-@media only screen and (max-width:1000px) {
+@@media (max-width:1000px) {
   .contact-content li
   {
     flex-basis:100%;
