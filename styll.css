@@ -378,7 +378,7 @@ ul.contact-content
   margin:0;
 
 }
-@@media (max-width:1000px) {
+@media (max-width:1000px) {
   .contact-content li
   {
     flex-basis:100%;
